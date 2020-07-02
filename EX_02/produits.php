@@ -14,7 +14,7 @@
                 "Short Vert"=> 19.99,
                 "Veste Argent"=> 35 );
             
-                foreach ($produit as $element) { 
+                foreach ($produits as $key=> $element) { 
                 echo $element. "<br/>";
             }
 
@@ -22,7 +22,7 @@
             function afficher_produit ($produit) {
                 echo "$element";
              }
-
+            
             afficher_produit ($produit)
         ?>
 
