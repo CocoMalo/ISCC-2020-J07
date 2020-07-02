@@ -17,19 +17,19 @@
         $panier = array_merge ($tableau1,$tableau2,$tableau3,$tableau4,$tableau5,$tableau6,$tableau7);
 
             function affichier_panier ($panier) {
-                echo "<ul> <li>$tableau1</li><li> </li><li> </li>
+                echo "<p> <ul> <li>$tableau1</li><li> </li><li> </li>
                 <ul> <li>$tableau2</li><li> </li><li> </li>
                 <ul> <li>$tableau3</li><li> </li><li> </li>
                 <ul> <li>$tableau4</li><li> </li><li> </li>
                 <ul> <li>$tableau5</li><li> </li><li> </li>
                 <ul> <li>$tableau6</li><li> </li><li> </li>
-                <ul> <li>$tableau7</li><li> </li><li> </li>";
+                <ul> <li>$tableau7</li><li> </li><li> </li> </p>";
              }
             
             function calculer_total_panier ($panier) {
-                return 
+                return $tableau1 + $tableau2 + $tableau3 + $tableau4 + $tableau5 + $tableau6 + $tableau7;
              }
-            
+            afficher_panier ($panier)
             
         ?>
     </body>
