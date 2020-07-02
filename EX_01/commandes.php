@@ -12,9 +12,14 @@
              }
              
             function afficher_commande ($historique_commande) { 
-                echo "La commande $historique_commande euros a été reçus.";
-                echo "Le total des commandes est de $element euros.";
+                echo "<p> La commande de $historique_commande[0] euros a été reçus. </p>";
+                echo "<p> La commande de $historique_commande[1] euros a été reçus. </p>";
+                echo "<p> La commande de $historique_commande[2] euros a été reçus. </p>";
+                echo "<p> La commande de $historique_commande[3] euros a été reçus. </p>";
+                echo "<p> La commande de $historique_commande[4] euros a été reçus. </p>";
+                echo "<p> Le total des commandes est de $historique_commande euros. </p>";
             }
+            afficher_commande ($historique_commande);
         ?>
     </body>
 </html>
